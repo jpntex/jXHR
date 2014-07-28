@@ -39,7 +39,10 @@ jQuery's `$.ajax` method with deferreds for Titanium Alloy
     parse: true
   });
   ```
-  
+
+## Backbone.sync
+If you would like to use `sync` method from Backbone.js with jXHR.js in Titanium Alloy see `backbone.sync/backbone.sync.js`
+
 ## License
 ```
 Copyright (c) 2014 João Teixeira
