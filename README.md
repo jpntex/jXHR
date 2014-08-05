@@ -8,7 +8,7 @@ jQuery's `$.ajax` method with deferreds for Titanium Alloy
 
 2. In your `index.js` add the following lines:
 
-  ```
+  ```javascript
   // Promisses Library
   var Q = require('q');
   
@@ -17,7 +17,7 @@ jQuery's `$.ajax` method with deferreds for Titanium Alloy
   ```
 
 3. Then just call it, like this:
-  ```
+  ```javascript
   $$.get('http://www.jpntex.com').then(function(e) {
 		Ti.API.debug(e);
 	}).fail(function(e) {
@@ -27,7 +27,7 @@ jQuery's `$.ajax` method with deferreds for Titanium Alloy
 
   or like this:
   
-  ```
+  ```javascript
   $$.ajax({
     url: 'http://www.jpntex.com',
     type: 'GET',
@@ -45,7 +45,7 @@ If you would like to use `sync` method from Backbone.js with jXHR.js in Titanium
 
 ## License
 ```
-Copyright (c) 2014 João Teixeira
+Copyright (c) João Teixeira
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
