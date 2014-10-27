@@ -6,7 +6,7 @@
 
 2. In your `alloy.js` file add the following lines:
 
-  ```
+  ```javascript
   // Promisses Library
   var Q = require('q');
   
@@ -18,7 +18,7 @@
   ```
   
 3. Using it:
-  ```
+  ```javascript
   var User = Backbone.Model.extend({
   	parse: function(resp) {
   		return resp.data;
