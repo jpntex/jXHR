@@ -202,6 +202,7 @@ var jXHR = {
 					error: error
 				});
 			}
+			o.complete();
 		};
 
 		xhr.onerror = function(e) {
@@ -225,6 +226,7 @@ var jXHR = {
 				status: status,
 				error: error
 			});
+			o.complete();
 		};
 
 		xhr.ondatastream = function(e) {
