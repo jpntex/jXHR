@@ -2,9 +2,6 @@
  * XHR with Deferreds (based on jQuery's $.ajax) for Titanium Alloy
  * @author João Teixeira
  * @version  1.0
- * Copyright (c) 2014 João Teixeira
- * www.jpntex.com
- *
  * 
  * TODO:
  * - image methods (get in blob and save to file (cache))
@@ -13,7 +10,6 @@
  * - implement ETags
  * - cache them all!!!!
  * - change q.js for a perf wise deferred lib
- * 
  */
 
 var Q = Q || require('q');
@@ -259,7 +255,7 @@ var jXHR = {
 		// Set the Accept Header
 		// TODO: accept multiple dataTypes
 		if (o.dataType && jXHR.accepts[o.dataType]) {
-			if (XHR.accepts[o.dataType]) {
+			if (jXHR.accepts[o.dataType]) {
 				xhr.setRequestHeader('Accept', jXHR.accepts[o.dataType]);
 			} else {
 				xhr.setRequestHeader('Accept', o.dataType);

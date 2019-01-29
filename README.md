@@ -18,7 +18,7 @@ jQuery's `$.ajax` method with deferreds for Titanium Alloy
 
 3. Then just call it, like this:
   ```javascript
-  $$.get('http://www.jpntex.com').then(function(e) {
+  $$.get('https://jsonplaceholder.typicode.com/todos/1').then(function(e) {
 		Ti.API.debug(e);
 	}).fail(function(e) {
 		Ti.API.debug(e);
@@ -29,7 +29,7 @@ jQuery's `$.ajax` method with deferreds for Titanium Alloy
   
   ```javascript
   $$.ajax({
-    url: 'http://www.jpntex.com',
+    url: 'https://jsonplaceholder.typicode.com/todos/1',
     type: 'GET',
     success: function(e) {Ti.API.debug(e);},
     error: function(e) {Ti.API.debug(e);},

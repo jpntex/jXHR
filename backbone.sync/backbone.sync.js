@@ -1,7 +1,6 @@
 /**
  * Backbone.sync override for Titanium using jXHR.js (https://github.com/jpntex/jXHR)
  * @author João Teixeira
- * www.jpntex.com
  * 
  */
 
