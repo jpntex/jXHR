@@ -1,7 +1,7 @@
 /**
  * XHR with Deferreds (based on jQuery's $.ajax) for Titanium Alloy
  * @author João Teixeira
- * @version  1.0
+ * @version  1.1
  * 
  * TODO:
  * - image methods (get in blob and save to file (cache))
